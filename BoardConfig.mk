@@ -23,7 +23,6 @@ TARGET_KERNEL_CONFIG += vendor/samsung/z3q.config
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := z3q
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
